@@ -1,102 +1,122 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #2e2e2e;
-    border-radius: 15px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    width: 320px;
-    height: auto;
-    color: #e0e0e0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  header {
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #3a3a3a;
-    box-sizing: border-box;
-  }
-  
-  #logo {
-    width: 35px;
-    height: auto;
-  }
-  
-  #login-section {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
-  
-  #login-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  #login-button:hover {
-    background-color: #0056b3;
-  }
-  
-  #settings-icon {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-  }
-  
-  #chat-history {
-    height: 70%;
-    background-color: #333;
-    padding: 10px;
-    overflow-y: auto;
-    box-sizing: border-box;
-    border-top: 1px solid #444;
-    border-bottom: 1px solid #444;
-  }
-  
-  #chat-message {
-    margin-bottom: 10px;
-  }
-  
-  footer {
-    height: 10%;
-    background-color: #3a3a3a;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  #user-message {
-    background-color: #444;
-    color: #e0e0e0;
-    border: 1px solid #555;
-    border-radius: 5px;
-    padding: 5px;
-    width: 80%;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 320px;
+  height: auto;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #3a3a3a;
+  box-sizing: border-box;
+}
+
+#logo {
+  width: 30px;
+  height: auto;
+  justify-content: flex-start;
+}
+
+#api-key-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#api-key-input {
+  background-color: #444;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80%; /* 80% width for input field */
+  margin-right: 5px; /* Add a small gap between input and button */
+}
+
+#api-key-submit {
+  width: 20%; /* 20% width for the submit button */
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#api-key-submit:hover {
+  background-color: #0056b3;
+}
+
+#api-status-message {
+  color: #ff5555;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+#chat-history {
+  height: 70%;
+  background-color: #333;
+  padding: 10px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+#chat-message {
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 10%;
+  background-color: #3a3a3a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#user-message {
+  background-color: #444;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80%;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#settings-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
